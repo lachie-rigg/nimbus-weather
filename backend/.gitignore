@@ -1,0 +1,8 @@
+# Build files
+[Bb]in/
+[Ob]j/
+
+#IDE Settings
+.idea/
+.vscode/
+

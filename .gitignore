@@ -1,2 +1,10 @@
 # Miscellanous
 *.env
+
+#IDE Settings
+*.idea/
+*.vscode/
+
+#.NET Build Folders 
+./backend/[Bb]in/ 
+./backend/[Ob]j/
