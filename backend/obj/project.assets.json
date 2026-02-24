@@ -75,24 +75,25 @@
     ]
   },
   "packageFolders": {
-    "/home/lachierigg/.nuget/packages/": {}
+    "/Users/lachierigg/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/lachierigg/Developer/nimbus-weather/backend/backend.csproj",
+      "projectUniqueName": "/Users/lachierigg/Developer/nimbus-weather/backend/backend.csproj",
       "projectName": "backend",
-      "projectPath": "/home/lachierigg/Developer/nimbus-weather/backend/backend.csproj",
-      "packagesPath": "/home/lachierigg/.nuget/packages/",
-      "outputPath": "/home/lachierigg/Developer/nimbus-weather/backend/obj/",
+      "projectPath": "/Users/lachierigg/Developer/nimbus-weather/backend/backend.csproj",
+      "packagesPath": "/Users/lachierigg/.nuget/packages/",
+      "outputPath": "/Users/lachierigg/Developer/nimbus-weather/backend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/lachierigg/.nuget/NuGet/NuGet.Config"
+        "/Users/lachierigg/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "/opt/homebrew/Cellar/dotnet/10.0.102/libexec/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -111,7 +112,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -133,6 +134,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.12, 9.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[9.0.12, 9.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[9.0.12, 9.0.12]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -141,7 +156,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/lachierigg/.dotnet/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/10.0.102/libexec/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

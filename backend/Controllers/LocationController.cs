@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using backend.Services;
+using System;
+
 
 namespace backend.Controllers; 
 
@@ -7,6 +9,12 @@ namespace backend.Controllers;
 [Route("api/location")]
 public class LocationController : ControllerBase
 {
-    private LocationService _locationService = new LocationService(); 
+    private LocationService _locationService;
+
+    public LocationController()
+    {
+        _locationService = new LocationService();
+    }
+
     
 }

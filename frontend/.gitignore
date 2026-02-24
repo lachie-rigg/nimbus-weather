@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# .NET build folders
+**/bin/
+**/obj/
+
+# Rider
+.idea/
+*.sln.iml

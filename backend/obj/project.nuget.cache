@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "74XCF20Mix8=",
+  "dgSpecHash": "jo+GRBti1vM=",
   "success": true,
-  "projectFilePath": "/home/lachierigg/Developer/nimbus-weather/backend/backend.csproj",
+  "projectFilePath": "/Users/lachierigg/Developer/nimbus-weather/backend/backend.csproj",
   "expectedPackageFiles": [
-    "/home/lachierigg/.nuget/packages/microsoft.aspnetcore.openapi/9.0.11/microsoft.aspnetcore.openapi.9.0.11.nupkg.sha512",
-    "/home/lachierigg/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+    "/Users/lachierigg/.nuget/packages/microsoft.aspnetcore.openapi/9.0.11/microsoft.aspnetcore.openapi.9.0.11.nupkg.sha512",
+    "/Users/lachierigg/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
+    "/Users/lachierigg/.nuget/packages/microsoft.netcore.app.ref/9.0.12/microsoft.netcore.app.ref.9.0.12.nupkg.sha512",
+    "/Users/lachierigg/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.12/microsoft.aspnetcore.app.ref.9.0.12.nupkg.sha512",
+    "/Users/lachierigg/.nuget/packages/microsoft.netcore.app.host.osx-arm64/9.0.12/microsoft.netcore.app.host.osx-arm64.9.0.12.nupkg.sha512"
   ],
   "logs": []
 }
