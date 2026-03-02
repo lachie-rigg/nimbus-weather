@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import SuburbList from "./SuburbList";
+import SuburbList from "../SuburbList";
 
 const SearchBar: React.FC = () => {
   const [query, setQuery] = useState("");
@@ -24,7 +24,7 @@ const SearchBar: React.FC = () => {
   
 
   return (
-      <div className="relative w-1/3">
+      <div className="relative w-3/4">
           <span className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">  
             🔎 
           </span>
@@ -33,7 +33,7 @@ const SearchBar: React.FC = () => {
             name="suburbSearch"
             autoCapitalize="words"
             placeholder="Search your Address, City or Postcode..."
-            className="h-8 w-full rounded-full bg-white pl-10 pr-4 text-black focus:outline-none"
+            className="h-8 w-full rounded-full bg-white pl-12 pr-4 text-black focus:outline-none"
             value={query} 
             onChange={(e) => setQuery(e.target.value)}
           />
